@@ -10,10 +10,10 @@ python -u run_classifier.py \
                    --do_val true \
                    --do_test true \
                    --batch_size 24 \
-                   --init_pretraining_params ./ERNIE/model/params \
-                   --train_set ./ERNIE/data/chnsenticorp/train.tsv \
-                   --dev_set ./ERNIE/data/chnsenticorp/dev.tsv \
-                   --test_set ./ERNIE/data/chnsenticorp/test.tsv \
+                   --init_pretraining_params ./model/params \
+                   --train_set ./data/chnsenticorp/train.tsv \
+                   --dev_set ./data/chnsenticorp/dev.tsv \
+                   --test_set ./data/chnsenticorp/test.tsv \
                    --vocab_path config/vocab.txt \
                    --checkpoints ./checkpoints \
                    --save_steps 1000 \
