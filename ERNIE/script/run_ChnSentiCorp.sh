@@ -4,7 +4,7 @@ export FLAGS_sync_nccl_allreduce=1
 export CUDA_VISIBLE_DEVICES=0
 
 python -u run_classifier.py \
-                   --use_cuda true \
+                   --use_cuda false \
                    --verbose true \
                    --do_train true \
                    --do_val true \
