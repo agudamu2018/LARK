@@ -6,7 +6,7 @@ export CUDA_VISIBLE_DEVICES=0
 python -u run_classifier.py \
                    --use_cuda false \
                    --verbose true \
-                   --do_train true \
+                   --do_train false \
                    --do_val true \
                    --do_test true \
                    --batch_size 24 \
